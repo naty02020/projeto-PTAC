@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f0f2ff, #fff3fb);
+  color: #333;
+}
+
+.painel {
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.cabecalho {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cabecalho h1 {
+  margin: 0 0 6px;
+  font-size: 24px;
+  color: #222;
+}
+
+.cabecalho p {
+  margin: 0;
+  color: #999;
+  font-size: 13px;
+}
+
+.formulario {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.formulario input {
+  flex: 1;
+  min-width: 0;
+  padding: 11px 13px;
+  border: 1px solid #d8d8e0;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+  color: #555;
+}
+
+.formulario input::placeholder {
+  color: #a7a7b0;
+}
+
+.formulario input:focus {
+  border-color: #6c63e8;
+}
+
+.formulario button {
+  padding: 11px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #6861e8;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  opacity: 0.9;
+}
+
+.erro {
+  margin: 8px 0 0;
+  color: #e05252;
+  font-size: 12px;
+}
+
+.lista {
+  margin-top: 18px;
+}
+
+.ideia {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  border: 1px solid #e4e4eb;
+  border-radius: 10px;
+  background: #fbfcfd;
+}
+
+.conteudo-ideia {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.conteudo-ideia input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.conteudo-ideia span {
+  font-size: 14px;
+  color: #555;
+  overflow-wrap: anywhere;
+}
+
+.feita {
+  text-decoration: line-through;
+  color: #999 !important;
+}
+
+.remover {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: #ffe2e5;
+  color: #e85b68;
+  font-size: 17px;
+  line-height: 28px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.remover:hover {
+  background: #ffd3d8;
+}
+
+.vazio {
+  text-align: center;
+  color: #aaa;
+  padding: 25px 0;
+  font-size: 13px;
+}
+
+.rodape {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid #e4e4e4;
+  text-align: center;
+  color: #777;
+  font-size: 13px;
+}
